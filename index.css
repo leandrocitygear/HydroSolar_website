@@ -1,0 +1,264 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    /* border: solid green; */
+}
+
+header {
+    border-bottom: solid #2596be;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4em;
+    background-color: white;
+    z-index: 10;
+}
+
+#box {
+    /* border: solid; */
+    width: 30%;
+    display: flex;
+    margin-left: 3%;
+}
+
+
+#logo {
+    width: 10%;
+}
+
+
+nav {
+    /* border: solid; */
+    width: 10%;
+   
+}
+
+#links {
+    display: flex;
+    list-style: none;
+    /* border: solid blue; */
+    padding: 0;
+    height: 100%;
+    margin: 0;
+
+}
+
+.list {
+    font-size: 16px;
+    font-weight: 400;
+    border: solid;
+    padding: 0;
+    cursor: pointer;
+    width: 8rem;
+    padding: 0.5% 0;
+    border-radius: 54px;
+    border-width: 0px;
+    background-color: #2596be;
+    text-align: center;
+    transition: background-color .25s;
+    color: #fff;
+}
+
+.list:hover {
+    background-color: #7c9a9c;
+    cursor: pointer;
+  
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+  }
+
+main {
+    width: 100%;
+    /* border: solid pink; */
+}
+
+#intro {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#welcome {
+    /* border: solid; */
+    /* text-align: center; */
+}
+
+#hero {
+    width: 10%;
+    height: fit-content;
+    /* position: relative; */
+    /* left: 19%; */
+    /* top:100px; */
+    /* border: solid; */
+    /* z-index: 1; */
+}
+
+#aboutUs {
+    /* border: solid; */
+    /* width: 45%; */
+    /* position: relative; */
+    left: 30.5%;
+    top: -55px;
+    font-weight: 600;
+    font-size: 25px;
+    /* z-index: 2; */
+}
+
+#home {
+    /* position: relative; */
+    top: -50px;
+    left: 29%;
+    /* width: 50%; */
+    /* border: solid; */
+}
+
+.text {
+    color: #000;
+    line-height: 30px;
+}
+
+#produc {
+    /* border: solid red; */
+    width: 100%;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+#produc1 {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+   text-align: center;
+   /* border: solid; */
+   margin-top: 8%;
+}
+
+#cal3 {
+    width:40%;
+    height: fit-content;
+}
+
+h4 {
+    margin: 0;
+}
+
+.info1 {
+    width: 40%;
+    /* border: solid; */
+    align-content: center;
+}
+
+.info2 {
+    width: 30%;
+    /* border: solid; */
+    align-content: center;
+}
+
+#produc2 {
+    /* border: solid purple; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#cis1 {
+    width:40%;
+    height: fit-content;
+}
+
+#servi {
+ width: 100%;
+}
+
+#servi1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+figure {
+    /* border: solid red; */
+    width:25%;
+    height: fit-content;
+
+}
+
+.manfotos {
+    width:100%;
+    height: fit-content;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#servi2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact {
+    border: solid red;
+    width: 100%;
+    background-image: url(./pictures/baner.jpg);
+    /* height: 600px; */
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#cleft {
+    border: solid;
+    width: 30%;
+    height: 70%;
+    /* display: block; */
+    text-align: center;
+}
+
+#cright {
+    border: solid;
+    width: 30%;
+    height: 70%;
+}
+
+.con {
+    color: #000;
+    display: block;
+    /* border: solid; */
+}
