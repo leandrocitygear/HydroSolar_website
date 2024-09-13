@@ -11,11 +11,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
+    /* display: flex;
+    flex-direction: column; */
     /* border: solid green; */
 }
 
+
 header {
-    border-bottom: solid #2596be;
+    border-bottom: solid 1px #2596be;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,12 +30,19 @@ header {
     background-color: white;
     z-index: 10;
 }
+hr {
+    border: 0;
+    height: 1px; 
+    background-color: #2596be;
+    margin: 0;
+}
 
 #box {
     /* border: solid; */
     width: 30%;
     display: flex;
     margin-left: 3%;
+    align-items: center;
 }
 
 
@@ -40,11 +50,15 @@ header {
     width: 10%;
 }
 
+#logoName {
+    width: 40%;
+    height: 5%;
+}
+
 
 nav {
     /* border: solid; */
     width: 10%;
-   
 }
 
 #links {
@@ -91,6 +105,10 @@ a:visited {
 main {
     width: 100%;
     /* border: solid pink; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
 }
 
 #intro {
@@ -99,40 +117,26 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #welcome {
-    /* border: solid; */
-    /* text-align: center; */
+    border-left: solid 1px #2596be;
 }
 
 #hero {
     width: 10%;
     height: fit-content;
-    /* position: relative; */
-    /* left: 19%; */
-    /* top:100px; */
-    /* border: solid; */
-    /* z-index: 1; */
 }
 
 #aboutUs {
     /* border: solid; */
-    /* width: 45%; */
-    /* position: relative; */
     left: 30.5%;
     top: -55px;
     font-weight: 600;
     font-size: 25px;
-    /* z-index: 2; */
 }
 
 #home {
-    /* position: relative; */
-    top: -50px;
-    left: 29%;
-    /* width: 50%; */
     /* border: solid; */
 }
 
@@ -149,6 +153,9 @@ main {
 
 h2 {
     text-align: center;
+    border-left: solid 1px #2596be;
+    border-right: solid 1px #2596be;
+    
 }
 
 #produc1 {
@@ -158,15 +165,33 @@ h2 {
     justify-content: space-evenly;
 }
 
+.line {
+    /* border: solid; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   margin-top: 12%;
+
+}
+
 h3 {
    text-align: center;
-   /* border: solid; */
-   margin-top: 8%;
+   /* border: solid 1px #2596be; */
+   width: fit-content;
+   border-left: solid 1px #2596be;
+    border-right: solid 1px #2596be;
+    border-top: solid 1px #2596be;
+    margin: 0;
+    padding: 1%;
 }
 
 #cal3 {
-    width:40%;
+    width:25%;
     height: fit-content;
+    margin-top: 1%;
+    border: solid #2596be 1px;
+
 }
 
 h4 {
@@ -175,14 +200,21 @@ h4 {
 
 .info1 {
     width: 40%;
-    /* border: solid; */
+    height: 40em;
+    border-left: solid 1px #2596be;
     align-content: center;
+    padding-left: 1%;
+    /* padding-top: 1%; */
 }
 
 .info2 {
     width: 30%;
     /* border: solid; */
     align-content: center;
+    border-left: solid 1px #2596be;
+    padding-left: 1%;
+
+
 }
 
 #produc2 {
@@ -193,8 +225,10 @@ h4 {
 }
 
 #cis1 {
-    width:40%;
+    width:30%;
     height: fit-content;
+    margin-top: 1%;
+    border: solid #2596be 1px;
 }
 
 #servi {
@@ -209,7 +243,7 @@ h4 {
 
 figure {
     /* border: solid red; */
-    width:25%;
+    width:17%;
     height: fit-content;
 
 }
@@ -231,8 +265,9 @@ figcaption {
 }
 
 #contact {
-    border: solid red;
+    border-top: solid 1px #2596be;
     width: 100%;
+    height: 30em;
     background-image: url(./pictures/baner.jpg);
     /* height: 600px; */
     background-position: center;
@@ -241,24 +276,29 @@ figcaption {
     justify-content: space-around;
     align-items: center;
     background-repeat: no-repeat;
+    margin-top: 12%;
 }
 
 #cleft {
-    border: solid;
+    border: solid 1px #2596be;
     width: 30%;
-    height: 70%;
+    height: 90%;
     /* display: block; */
     text-align: center;
 }
 
 #cright {
-    border: solid;
+    border: solid 1px #2596be;
     width: 30%;
-    height: 70%;
+    height: 90%;
 }
 
 .con {
     color: #000;
     display: block;
     /* border: solid; */
+}
+
+#slogan {
+    text-transform: uppercase;
 }
