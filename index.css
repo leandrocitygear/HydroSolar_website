@@ -675,4 +675,8 @@ button:hover {
     button {
         padding: 0.5em;
     }
+
+#slogan {
+    margin-top: 2%;
+}
 }
