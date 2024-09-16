@@ -499,6 +499,7 @@ button:hover {
     header {
         flex-direction: column;
         height: auto;
+        position:initial ;
     }
 
     #box {
