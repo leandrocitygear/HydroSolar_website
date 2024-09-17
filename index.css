@@ -2,7 +2,6 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
 }
 
 body {
@@ -14,7 +13,6 @@ body {
     font-family: "Open Sans", sans-serif;
     overflow-x: hidden;
 }
-
 
 header {
     border-bottom: solid 1px #2596be;
@@ -29,6 +27,7 @@ header {
     background-color: white;
     z-index: 10;
 }
+
 hr {
     border: 0;
     height: 1px; 
@@ -37,7 +36,6 @@ hr {
 }
 
 #box {
-    /* border: solid; */
     width: 30%;
     display: flex;
     margin-left: 3%;
@@ -56,7 +54,6 @@ hr {
 
 
 nav {
-    /* border: solid red; */
     width: 20%;
     height: 100%;
 }
@@ -70,7 +67,6 @@ nav {
     padding: 0;
     height: 100%;
     margin: 0;
-
 }
 
 .list {
@@ -91,7 +87,6 @@ nav {
     background-color:#2596be;
     cursor: pointer;
     color: #fff;
-  
 }
 
 a {
@@ -101,21 +96,13 @@ a {
 
 a:hover {
     color: white;
-
 }
 
 main {
     width: 100%;
-    /* border: solid pink; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 #intro {
-    /* border: solid; */
-    /* padding: 1%; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -124,7 +111,6 @@ main {
 
 #welcome {
     border-left: solid 1px #2596be;
-    /* border: solid ; */
 }
 
 #hero {
@@ -144,8 +130,6 @@ main {
 
 
 #home {
-    /* border: solid; */
-    /* text-decoration: underline #2596be; */
     border-right: solid 1px #2596be;
     border-bottom: solid 1px #2596be;
 }
@@ -156,7 +140,6 @@ main {
 }
 
 #produc {
-    /* border: solid red; */
     width: 100%;
     
 }
@@ -169,25 +152,21 @@ h2 {
 }
 
 #produc1 {
-    /* border: solid; */
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
 
 .line {
-    /* border: solid; */
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
    margin-top: 12%;
-
 }
 
 .title {
    text-align: center;
-   /* border: solid 1px #2596be; */
    width: fit-content;
    border-left: solid 1px #2596be;
     border-right: solid 1px #2596be;
@@ -209,50 +188,37 @@ h4 {
     border-bottom: solid #2596be 1px;
     width: fit-content;
     padding-left: 3%;
-    
-
 }
 
 .info1 {
     width: 40%;
     height: fit-content;
     border-left: solid 1px #2596be;
-    /* border: solid; */
     align-content: center;
-    /* padding-left: 1%; */
-    /* padding-top: 1%; */
+    padding-top: 1%;
 }
 
 .info2 {
     width: 30%;
-    /* border: solid; */
     align-content: center;
     border-left: solid 1px #2596be;
-    /* padding-left: 1%; */
 }
 
 .offset {
     margin-right: 4px;
     width: fit-content;
-    /* border: #000 solid; */
-
 }
 
 .style {
     padding-left: 9%;
-    /* padding-right: 1%; */
     border-right: solid 1px #2596be;
     border-bottom: solid 1px #2596be;
     width: fit-content;
-
-
 }
 
 #produc2 {
-    /* border: solid purple; */
     display: flex;
     justify-content: space-evenly;
-
 }
 
 #cis1 {
@@ -273,7 +239,6 @@ h4 {
 }
 
 figure {
-    /* border: solid 1px #2596be; */
     width:17%;
     height: fit-content;
     display: flex;
@@ -293,8 +258,8 @@ figcaption {
     border-left: solid 1px #2596be;
     border-right: solid 1px #2596be;
     border-bottom: solid 1px #2596be;
-width: fit-content;
-padding: 1%;
+    width: fit-content;
+    padding: 1%;
 }
 
 #servi2 {
@@ -308,26 +273,21 @@ padding: 1%;
     width: 100%;
     height: fit-content;
     background-image: url(./pictures/baner.jpg);
-    /* height: 600px; */
     background-position: center;
     background-size: contain;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     background-repeat: no-repeat;
     margin-top: 12%;
 }
 
 #cleft {
     border-left: solid 1px #2596be;
-    /* border: solid 1px #2596be; */
-    /* border: solid 1px #2596be; */
     width: 30%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    /* text-align: center; */
+    padding-bottom: 1%;
 }
 
 #bye {
@@ -338,7 +298,6 @@ padding: 1%;
 }
 
 #bye2 {
-    /* border: solid; */
     display: flex;
     justify-content: center;
     padding-left: 4%;
@@ -349,38 +308,31 @@ padding: 1%;
     border-right: #2596be solid 1px;
     border-left: #2596be 1px;
     border-bottom: #2596be solid 1px;
-    /* margin-top: 8%; */
     padding-left: 2%;
     padding-right: 1%;
     width: fit-content;
     margin: 0;
     margin-top: 4%;
-
-
 }
 
 #toda {
     border-bottom: #2596be solid 1px;
     border-left: #2596be  1px;
-    /* margin-top: 8%; */
     width: fit-content;
     font-weight: 400;
     padding-left: 10%;
     margin: 0;
     margin-top: 4%;
-
 }
 
 .con {
     border-bottom: #2596be solid 1px;
     border-left: #2596be  1px;
-    /* margin-top: 8%; */
     width: fit-content;
     font-weight: 400;
     padding-left: 10%;
     display: block;
     margin-top: 4%;
-
 }
 
 .con:hover {
@@ -411,15 +363,13 @@ padding: 1%;
 #cright {
     border-right: solid 1px #2596be;
     width: 30%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
 .cform {
-    /* border: solid 1px #2596be ;  */
-    /* border-right: 1px #2596be ;  */
     margin-top: 5%;
     display: flex;
     flex-direction: column;
@@ -432,6 +382,7 @@ padding: 1%;
     height: fit-content;
     width: 50%;
     padding-right: 15%;
+    margin-top: 10%;
 }
 
 label {
@@ -481,7 +432,6 @@ button:hover {
     border: solid 1px #2596be;
     border-top:  1px #2596be;
     border-:  1px #2596be;
-    /* width: fit-content; */
     margin-top: 0;
     padding-top: 1%;
     padding-left: 1%;
@@ -494,7 +444,7 @@ button:hover {
 /* Base styles (unchanged) */
 
 /* Media Query for devices with a max width of 768px */
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 768px) {
 
     header {
         flex-direction: column;
