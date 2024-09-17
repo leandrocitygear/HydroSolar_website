@@ -625,6 +625,12 @@ button:hover {
 
     button {
         padding: 0.5em;
+        color: #000;
+    }
+
+    button:hover {
+        background-color: white;
+        color: #000;
     }
 
 #slogan {
