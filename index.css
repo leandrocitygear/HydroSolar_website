@@ -75,10 +75,11 @@ nav {
     border-top:#2596be solid 1px;
     border-left:#2596be solid 1px;
     border-right:#2596be solid 1px;
-    padding: 2%;
+    /* padding: 1%; */
     cursor: pointer;
     height: fit-content;
-    width:fit-content ;
+    width: fit-content;
+   
     text-align: center;
     color: black;
 }
@@ -92,6 +93,8 @@ nav {
 a {
     text-decoration: none;
     color: black;
+    /* border: solid 1px; */
+    padding: 1px;
 }
 
 a:hover {
@@ -319,8 +322,7 @@ figcaption {
     border-bottom: #2596be solid 1px;
     border-left: #2596be  1px;
     width: fit-content;
-    font-weight: 400;
-    padding-left: 10%;
+    padding-left: 8%;
     margin: 0;
     margin-top: 4%;
 }
@@ -484,12 +486,19 @@ button:hover {
         width: 100%;
         text-align: center;
         border: none;
-        padding: 10px 0;
+        /* padding: 10px 0; */
     }
 
     .list:hover {
         background-color: #2596be;
         color: #fff;
+    }
+
+    a {
+        /* border: solid 1px; */
+        display: flex;
+        justify-content: center;
+        height: fit-content;
     }
 
     main {
